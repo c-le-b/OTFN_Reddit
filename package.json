@@ -1,0 +1,16 @@
+{
+  "name": "otfn-reddit-bot",
+  "version": "1.0.0",
+  "description": "Automated bot that posts multi-perspective story summaries to a subreddit on behalf of Over The Fence News.",
+  "type": "module",
+  "main": "src/redditBot.js",
+  "scripts": {
+    "start": "node src/redditBot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.3",
+    "snoowrap": "^1.23.0"
+  },
+  "license": "MIT"
+}
